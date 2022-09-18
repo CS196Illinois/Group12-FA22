@@ -1,7 +1,7 @@
 # Group 12
 Group Name: TEAM_NAME
 
-[MVP Link](https://docs.google.com/document/d/1dFq9K7Jg6gHe5mSk3yREuBS40qWN8c8HLkco3Lg3FA8/editu)
+[MVP Link](https://docs.google.com/document/d/17R9ASpmCRh4EIMBEgXNuk2Qp34TUkr7Qg3Vj9MOvQok/edit)
 
 Team Members: STUDENTS_NETIDS
 

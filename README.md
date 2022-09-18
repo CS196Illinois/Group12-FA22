@@ -1,5 +1,5 @@
 # Group 12
-Group Name: TEAM_NAME
+Group Name: Code Crime Fighters
 
 [MVP Link](https://docs.google.com/document/d/17R9ASpmCRh4EIMBEgXNuk2Qp34TUkr7Qg3Vj9MOvQok/edit)
 

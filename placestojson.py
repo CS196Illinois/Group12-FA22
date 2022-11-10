@@ -15,43 +15,43 @@ for place in places:
         'venue_name': place_names[index],
         'venue_address': place_addresses[index]
     }
-    #print(str(place) +" "+ str(place_names[index]) + " " + str(place_addresses[index]))
+
     response = requests.request("POST", url, params=params)
     if (place == "Main Quad"):
-#         with open('mainquad.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('mainquad.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded Main Quad to Json")
     elif (place == "South Quad"):
-#         with open('southquad.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('southquad.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded South Quad to Json")
     elif (place == "Ike"):
-#         with open('ike.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('ike.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded IKE to Json")
     elif (place == "Grainger"):
-#         with open('grainger.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('grainger.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded Grainger to Json")
     elif (place == "Campustown"):
-#         with open('campustown.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('campustown.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded Campustown to Json")
     elif (place == "ISR"):
-#         with open('isr.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('isr.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded ISR to Json")
     elif (place == "Bromley"):
-#         with open('bromley.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('bromley.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded Bromley to Json")
     elif (place == "LAR"):
-#         with open('lar.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('lar.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded LAR to Json")
     elif (place == "PAR"):
-#         with open('par.json', 'w') as json_file:
-#             json.dump(response.json(), json_file)
+         with open('par.json', 'w') as json_file:
+             json.dump(response.json(), json_file)
         print("Loaded PAR to Json")
     else:
         print("Error")
